@@ -8,7 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> Home || YOG HERBS</title>
     <!-- favicons Icons -->
-
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Inter:wght@100..900&display=swap" rel="stylesheet"> -->
     <meta name="description" content="" />
     <?php include ("./includes/link.php"); ?>
 </head>
@@ -242,7 +244,8 @@
                                             class="text-info">YOG HERBS</span></span>
                                     <h2 class="text-warning">About Us</h2>
                                     <div class="section-title__icon">
-                                        <img src="assets/images/icon/section-title-icon-1.png" alt="">
+                                        <!-- <img src="assets/images/icon/section-title-icon-1.png" alt=""> -->
+                                        <img src="./assets/images/backgrounds/leaf.png" alt="">
                                     </div>
                                 </div>
                                 <p class="about-two__text">Welcome to <span class="text-white">
@@ -300,122 +303,15 @@
         </section>
         <!--About Two End-->
 
-        <!--Services Two Start-->
-        <section class="services-two">
-            <div class="services-two__bg" style="background-image: url(assets/images/shapes/services-two-shape-1.png);">
-            </div>
-            <div class="container">
-                <div class="section-title text-center">
-                    <span class="section-title__tagline">What We’re Doing</span>
-                    <h2 class="section-title__title">Services We’re offering</h2>
-                    <div class="section-title__icon">
-                        <img src="assets/images/icon/section-title-icon-1.png" alt="">
-                    </div>
-                </div>
-                <div class="row">
-                    <!--Services Two Single Start-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
-                        <div class="services-two__single">
-                            <div class="services-two__img">
-                                <img src="assets/images/services/services-two-1.jpg" alt="">
-                            </div>
-                            <div class="services-two__content">
-                                <div class="services-two__icon">
-                                    <span class="icon-dairy-products"></span>
-                                </div>
-                                <div class="services-two__more-details">
-                                    <a href="dairy-products.html"><i class="icon-right-arrow"></i>More Detail</a>
-                                </div>
-                            </div>
-                            <div class="services-two__title-box">
-                                <p class="services-two__subtitle">01 Services</p>
-                                <h3 class="services-two__title"><a href="dairy-products.html">Dairy Products</a></h3>
-                            </div>
-                            <div class="services-two__hover-content">
-                                <p class="services-two__hover-sub-title">01 Services</p>
-                                <h3 class="services-two__hover-title"><a href="dairy-products.html">Dairy Products</a>
-                                </h3>
-                                <p class="services-two__hover-text">Lorem ium dolor sit do <br> sed pisicing elit.</p>
-                                <div class="services-two__hover-more-details">
-                                    <a href="dairy-products.html"><i class="icon-right-arrow"></i>More Detail</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Services Two Single End-->
-                    <!--Services Two Single Start-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
-                        <div class="services-two__single">
-                            <div class="services-two__img">
-                                <img src="assets/images/services/services-two-2.jpg" alt="">
-                            </div>
-                            <div class="services-two__content">
-                                <div class="services-two__icon">
-                                    <span class="icon-dairy-products"></span>
-                                </div>
-                                <div class="services-two__more-details">
-                                    <a href="fresh-vegetables.html"><i class="icon-right-arrow"></i>More Detail</a>
-                                </div>
-                            </div>
-                            <div class="services-two__title-box">
-                                <p class="services-two__subtitle">02 Services</p>
-                                <h3 class="services-two__title"><a href="fresh-vegetables.html">Fresh vegetables</a>
-                                </h3>
-                            </div>
-                            <div class="services-two__hover-content">
-                                <p class="services-two__hover-sub-title">02 Services</p>
-                                <h3 class="services-two__hover-title"><a href="fresh-vegetables.html">Fresh
-                                        vegetables</a></h3>
-                                <p class="services-two__hover-text">Lorem ium dolor sit do <br> sed pisicing elit.</p>
-                                <div class="services-two__hover-more-details">
-                                    <a href="fresh-vegetables.html"><i class="icon-right-arrow"></i>More Detail</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Services Two Single End-->
-                    <!--Services Two Single Start-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
-                        <div class="services-two__single">
-                            <div class="services-two__img">
-                                <img src="assets/images/services/services-two-3.jpg" alt="">
-                            </div>
-                            <div class="services-two__content">
-                                <div class="services-two__icon">
-                                    <span class="icon-dairy-products"></span>
-                                </div>
-                                <div class="services-two__more-details">
-                                    <a href="organic-products.html"><i class="icon-right-arrow"></i>More Detail</a>
-                                </div>
-                            </div>
-                            <div class="services-two__title-box">
-                                <p class="services-two__subtitle">03 Services</p>
-                                <h3 class="services-two__title"><a href="organic-products.html">Organic items</a></h3>
-                            </div>
-                            <div class="services-two__hover-content">
-                                <p class="services-two__hover-sub-title">03 Services</p>
-                                <h3 class="services-two__hover-title"><a href="organic-products.html">Organic items</a>
-                                </h3>
-                                <p class="services-two__hover-text">Lorem ium dolor sit do <br> sed pisicing elit.</p>
-                                <div class="services-two__hover-more-details">
-                                    <a href="organic-products.html"><i class="icon-right-arrow"></i>More Detail</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Services Two Single End-->
-                </div>
-            </div>
-        </section>
-        <!--Services Two End-->
+
 
 
         <!--Ready to Restore Harmony in your Mind ,Body,and Spirit Start-->
         <section class="">
-            <div class="container-fluid bg_wallpaper py-3 py-lg-5">
+            <div class="container-fluid bg_wallpaper py-4 ">
                 <div class="container">
                     <div class="row">
-                        <div class=" col-12">
+                        <div class=" col-12 wow fadeInUp" data-wow-delay="1s">
                             <h2 class="text-center text-warning ">Achieve Balance in Mind, Body, and Spirit</h2>
                             <p class="text-center text-white">
                                 Achieving balance in mind, body, and spirit is a journey of holistic wellness. It
@@ -432,20 +328,124 @@
         </section>
         <!--Ready to Restore Harmony in your Mind ,Body,and Spirit End-->
         <!-- mission and vision section start here -->
-         <section class="py-3 py-lg-5 ">
+        <section class="">
             <div class="container-fluid set_bg_product">
-                <div class="container">
+                <div class="container py-5">
                     <div class="row">
                         <div class="col-12">
-                            <p class="text-info">// CHECK OUR SERVICES</p>
+                            <p class="text-info text-warning">// CHECK OUR SERVICES</p>
                             <div>
-                                <h2 class="font-bold">Our Products</h2>
+                                <h1 class="font-bold wow fadeInUp text-white" data-wow-delay="1s">Our Products</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4 my-3">
+                            <div class="main_card_design px-4 py-2 wow fadeInUp" data-wow-delay="1s">
+                                <div class="d-flex justify-content-center">
+                                    <img src="./assets/images/backgrounds/pot.png" alt="">
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-bold text-center py-3">WOMEN LICO</h4>
+                                </div>
+                                <div class="benefits">
+                                    <p class="text-center">
+                                        Licorrhoea, White discharge
+                                        foul, smell, irregular
+                                        menstruation pimples on
+                                        the face.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3">
+                            <div class="main_card_design px-4 py-2 wow fadeInUp" data-wow-delay="1s">
+                                <div class="d-flex justify-content-center">
+                                    <img src="./assets/images/backgrounds/pot.png" alt="">
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-bold text-center py-3">TWACHA ROG</h4>
+                                </div>
+                                <div class="benefits">
+                                    <p class="text-center">
+                                        Eczema,herpes,Ringworm,itching,rashes, Eliminate all types of skin diseases from
+                                        their roots.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3">
+                            <div class="main_card_design px-4 py-2 wow fadeInUp" data-wow-delay="1s">
+                                <div class="d-flex justify-content-center">
+                                    <img src="./assets/images/backgrounds/pot.png" alt="">
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-bold text-center py-3">SUGAR REMOVER</h4>
+                                </div>
+                                <div class="benefits">
+                                    <p class="text-center">
+                                        It increases the amount of insulin
+                                        your body makes (in the pancreas)
+                                        which then works to lower your
+                                        blood glucose levels.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3">
+                            <div class="main_card_design px-4 py-2 wow fadeInUp" data-wow-delay="1s">
+                                <div class="d-flex justify-content-center">
+                                    <img src="./assets/images/backgrounds/pot.png" alt="">
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-bold text-center py-3">PILES REMOVER</h4>
+                                </div>
+                                <div class="benefits">
+                                    <p class="text-center">
+                                        Watering, Bleeding
+                                        Pain Coming out of warts,
+                                        Cures all types of piles from
+                                        the root.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3">
+                            <div class="main_card_design px-4 py-2 wow fadeInUp" data-wow-delay="1s">
+                                <div class="d-flex justify-content-center">
+                                    <img src="./assets/images/backgrounds/pot.png" alt="">
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-bold text-center py-3">OLI GREEN</h4>
+                                </div>
+                                <div class="benefits">
+                                    <p class="text-center">
+                                        Olive leaf might lower blood pressure. Olive fruit might also be able to kill
+                                        microbes, such as bacteria and fungus.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3">
+                            <div class="main_card_design px-4 py-2 wow fadeInUp" data-wow-delay="1s">
+                                <div class="d-flex justify-content-center">
+                                    <img src="./assets/images/backgrounds/pot.png" alt="">
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-bold text-center py-3">AMLA CHURNA</h4>
+                                </div>
+                                <div class="benefits">
+                                    <p class="text-center">
+                                        Clean stomach gas ,Groth Hair and Eyesight Also.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-         </section>
+        </section>
         <!-- mission and vision section start end -->
         <!--Faq One Start-->
         <section class="faq-one">
@@ -457,13 +457,15 @@
                             <div class="section-title text-left">
                                 <span class="section-title__tagline text-info">Frequently Asked Questions</span>
                                 <h2 class="section-title__title text-warning">How may we assist you today?</h2>
-                              
+
                             </div>
                             <div class="faq-one__img-box">
                                 <div class="faq-one__img">
-                                    <img src="./assets/images/backgrounds/faq1.jpg" class="wow zoomIn" data-wow-delay="1s" alt="">
+                                    <img src="./assets/images/backgrounds/faq1.jpg" class="wow zoomIn"
+                                        data-wow-delay="1s" alt="">
                                     <div class="faq-one__img-icon wow flip" data-wow-delay="1s">
-                                        <span class=""> <img src="./assets/images/backgrounds/why.png" style="width: 50px;" alt=""></span>
+                                        <span class=""> <img src="./assets/images/backgrounds/why.png"
+                                                style="width: 50px;" alt=""></span>
                                     </div>
                                 </div>
                                 <ul class="faq-one__points list-unstyled wow fadeInUp" data-wow-delay="1s">
@@ -520,7 +522,11 @@
                                     </div>
                                     <div class="accrodion-content">
                                         <div class="inner">
-                                            <p>While generally safe, individual reactions can vary. Consult with a healthcare provider, especially if pregnant, nursing, or on medication. Herbal products can interact with certain medications or exacerbate existing conditions. Always read labels and follow recommended usage guidelines.</p>
+                                            <p>While generally safe, individual reactions can vary. Consult with a
+                                                healthcare provider, especially if pregnant, nursing, or on medication.
+                                                Herbal products can interact with certain medications or exacerbate
+                                                existing conditions. Always read labels and follow recommended usage
+                                                guidelines.</p>
                                         </div><!-- /.inner -->
                                     </div>
                                 </div>
@@ -530,7 +536,9 @@
                                     </div>
                                     <div class="accrodion-content">
                                         <div class="inner">
-                                            <p> Results vary based on individual health and the product's purpose. Typically, consistent use over weeks to months is recommended for noticeable effects.</p>
+                                            <p> Results vary based on individual health and the product's purpose.
+                                                Typically, consistent use over weeks to months is recommended for
+                                                noticeable effects.</p>
                                         </div><!-- /.inner -->
                                     </div>
                                 </div>
@@ -540,7 +548,9 @@
                                     </div>
                                     <div class="accrodion-content">
                                         <div class="inner">
-                                            <p>While generally well-tolerated, mild side effects like digestive upset or allergic reactions may occur. Discontinue use if adverse effects persist and consult a healthcare provider.</p>
+                                            <p>While generally well-tolerated, mild side effects like digestive upset or
+                                                allergic reactions may occur. Discontinue use if adverse effects persist
+                                                and consult a healthcare provider.</p>
                                         </div><!-- /.inner -->
                                     </div>
                                 </div>
@@ -550,7 +560,10 @@
                                     </div>
                                     <div class="accrodion-content">
                                         <div class="inner">
-                                            <p>Regulations vary by country. Look for products with certifications or approvals from reputable agencies. Quality assurance practices, such as GMP (Good Manufacturing Practice) certifications, ensure standards are met.</p>
+                                            <p>Regulations vary by country. Look for products with certifications or
+                                                approvals from reputable agencies. Quality assurance practices, such as
+                                                GMP (Good Manufacturing Practice) certifications, ensure standards are
+                                                met.</p>
                                         </div><!-- /.inner -->
                                     </div>
                                 </div>
@@ -562,140 +575,20 @@
         </section>
         <!--Faq One End-->
 
-       
 
-        <!--Team One Start-->
-        <section class="team-one">
-            <div class="container">
-                <div class="section-title text-center">
-                    <span class="section-title__tagline">Team Members</span>
-                    <h2 class="section-title__title">Introducing Our Team</h2>
-                    <div class="section-title__icon">
-                        <img src="assets/images/icon/section-title-icon-1.png" alt="">
-                    </div>
-                </div>
-                <div class="row">
-                    <!--Team One Single Start-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
-                        <div class="team-one__single">
-                            <div class="team-one__shape-1">
-                                <img src="assets/images/shapes/team-one-shape-1.png" alt="">
-                            </div>
-                            <div class="team-one__img-box">
-                                <div class="team-one__img">
-                                    <img src="assets/images/team/team-1-1.jpg" alt="">
-                                    <ul class="list-unstyled team-one__social">
-                                        <li><a href="javascript:void(0);"><i class="fab fa-facebook-f"></i> <span
-                                                    class="team-one__social-name">Facebook</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0);"><i class="fab fa-twitter"></i> <span
-                                                    class="team-one__social-name">Twitter</span></a>
-                                        </li>
-                                       
-                                        <li>
-                                            <a href="javascript:void(0);"><i class="fab fa-instagram"></i><span
-                                                    class="team-one__social-name">Instagram</span></a>
-                                        </li>
-                                    </ul>
-                                    <div class="team-one__icon">
-                                        <a href="#"><i class="fas fa-share-alt"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-one__content">
-                                <h3 class="team-one__title">DR PK SINGH</h3>
-                                <p class="team-one__subtitle">CEO</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Team One Single End-->
-                    <!--Team One Single Start-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
-                        <div class="team-one__single">
-                            <div class="team-one__shape-1">
-                                <img src="assets/images/shapes/team-one-shape-1.png" alt="">
-                            </div>
-                            <div class="team-one__img-box">
-                                <div class="team-one__img">
-                                    <img src="assets/images/team/team-1-2.jpg" alt="">
-                                    <ul class="list-unstyled team-one__social">
-                                        <li><a href="javascript:void(0);"><i class="fab fa-facebook-f"></i> <span
-                                                    class="team-one__social-name">Facebook</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0);"><i class="fab fa-twitter"></i> <span
-                                                    class="team-one__social-name">Twitter</span></a>
-                                        </li>
-                                       
-                                        <li>
-                                            <a href="#"><i class="fab fa-instagram"></i><span
-                                                    class="team-one__social-name">Instagram</span></a>
-                                        </li>
-                                    </ul>
-                                    <div class="team-one__icon">
-                                        <a href="javascript:void(0);"><i class="fas fa-share-alt"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-one__content">
-                                <h3 class="team-one__title">Amit Jha</h3>
-                                <p class="team-one__subtitle">...</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Team One Single End-->
-                    <!--Team One Single Start-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
-                        <div class="team-one__single">
-                            <div class="team-one__shape-1">
-                                <img src="assets/images/shapes/team-one-shape-1.png" alt="">
-                            </div>
-                            <div class="team-one__img-box">
-                                <div class="team-one__img">
-                                    <img src="assets/images/team/team-1-3.jpg" alt="">
-                                    <ul class="list-unstyled team-one__social">
-                                        <li><a href="javascript:void(0);"><i class="fab fa-facebook-f"></i> <span
-                                                    class="team-one__social-name">Facebook</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0);"><i class="fab fa-twitter"></i> <span
-                                                    class="team-one__social-name">Twitter</span></a>
-                                        </li>
-                                       
-                                        <li>
-                                            <a href="#"><i class="fab fa-instagram"></i><span
-                                                    class="team-one__social-name">Instagram</span></a>
-                                        </li>
-                                    </ul>
-                                    <div class="team-one__icon">
-                                        <a href="javascript:void(0);"><i class="fas fa-share-alt"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-one__content">
-                                <h3 class="team-one__title">Tannu Priya</h3>
-                                <p class="team-one__subtitle">....</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Team One Single End-->
-                </div>
-            </div>
-        </section>
-        <!--Team One End-->
+
+        
 
         <!--Testimonial Two Start-->
         <section class="testimonial-two">
-            <div class="testimonial-two__shape-1 float-bob-x"
-                style="background-image: url(assets/images/shapes/testimonial-two-shape-1.png);"></div>
+            <div class="testimonial-two__shape-1 float-bob-x"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-xl-7 col-lg-6">
                         <div class="testimonial-two__left">
                             <div class="section-title text-left">
-                                <span class="section-title__tagline">Our Testimonials</span>
-                                <h2 class="section-title__title">What they’re talking?</h2>
+                                <span class="section-title__tagline text-warning">Our Testimonials</span>
+                                <h2 class="section-title__title">Customer Feedback</h2>
                                 <div class="section-title__icon">
                                     <img src="assets/images/icon/section-title-icon-1.png" alt="">
                                 </div>
@@ -706,17 +599,17 @@
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
                                                 <div class="testimonial-two__img-holder">
-                                                    <img src="assets/images/testimonial/testimonial-2-1.jpg" alt="">
+                                                    <img src="assets/images/backgrounds/test1.jpg" alt="@dued">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="testimonial-two__img-holder">
-                                                    <img src="assets/images/testimonial/testimonial-2-2.jpg" alt="">
+                                                    <img src="assets/images/backgrounds/test2.jpg" alt="@dued">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="testimonial-two__img-holder">
-                                                    <img src="assets/images/testimonial/testimonial-2-3.jpg" alt="">
+                                                    <img src="assets/images/backgrounds/test3.jpg" alt="@dued">
                                                 </div>
                                             </div>
                                         </div>
@@ -728,13 +621,12 @@
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
                                                 <div class="testimonial-two__content-box">
-                                                    <p class="testimonial-two__text">I’ve just had two of the most
-                                                        productive work weeks I have had in years. Ben was perfectly
-                                                        matched to my temperament, and has been taking all the
-                                                        backlogged work off my plate and finishing it.</p>
+                                                    <p class="testimonial-two__text">"These herbal supplements have
+                                                        transformed my health. I feel more energetic and balanced every
+                                                        day!"</p>
                                                     <div class="testimonial-two__client-info">
-                                                        <p class="testimonial-two__client-text">Sarah Albert <span>-
-                                                                Co-Founder</span></p>
+                                                        <p class="testimonial-two__client-text">Tannu Priya<span>-
+                                                                Customer</span></p>
                                                     </div>
                                                     <div class="testimonial-two__quote">
                                                         <span class="icon-quote"></span>
@@ -743,13 +635,12 @@
                                             </div><!-- /.swiper-slide -->
                                             <div class="swiper-slide">
                                                 <div class="testimonial-two__content-box">
-                                                    <p class="testimonial-two__text">I’ve just had two of the most
-                                                        productive work weeks I have had in years. Ben was perfectly
-                                                        matched to my temperament, and has been taking all the
-                                                        backlogged work off my plate and finishing it.</p>
+                                                    <p class="testimonial-two__text">"I love how natural and effective
+                                                        these products are. They've become a staple in my daily
+                                                        routine."</p>
                                                     <div class="testimonial-two__client-info">
-                                                        <p class="testimonial-two__client-text">Kevin Martin <span>-
-                                                                Co-Founder</span></p>
+                                                        <p class="testimonial-two__client-text">Abhishek<span>-
+                                                                Customers</span></p>
                                                     </div>
                                                     <div class="testimonial-two__quote">
                                                         <span class="icon-quote"></span>
@@ -758,13 +649,11 @@
                                             </div><!-- /.swiper-slide -->
                                             <div class="swiper-slide">
                                                 <div class="testimonial-two__content-box">
-                                                    <p class="testimonial-two__text">I’ve just had two of the most
-                                                        productive work weeks I have had in years. Ben was perfectly
-                                                        matched to my temperament, and has been taking all the
-                                                        backlogged work off my plate and finishing it.</p>
+                                                    <p class="testimonial-two__text">"Fantastic products! My skin looks
+                                                        clearer and healthier thanks to the natural ingredients."</p>
                                                     <div class="testimonial-two__client-info">
-                                                        <p class="testimonial-two__client-text">Aleesha Brown <span>-
-                                                                Co-Founder</span></p>
+                                                        <p class="testimonial-two__client-text">Prakshdeep<span>-
+                                                                Customer</span></p>
                                                     </div>
                                                     <div class="testimonial-two__quote">
                                                         <span class="icon-quote"></span>
@@ -781,44 +670,7 @@
                     </div>
                     <div class="col-xl-5 col-lg-6">
                         <div class="testimonial-two__right">
-                            <ul class="testimonial-two__counter list-unstyled">
-                                <li>
-                                    <div class="testimonial-two__counter-icon">
-                                        <span class="icon-seeds"></span>
-                                    </div>
-                                    <div class="testimonial-two__counter-content-box">
-                                        <div class="testimonial-two__counter-count-box">
-                                            <h3 class="odometer" data-count="4850">00</h3>
-                                            <span class="counter-one__plus">+</span>
-                                        </div>
-                                        <p class="testimonial-two__counter-text">Agriculture Projects</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="testimonial-two__counter-icon">
-                                        <span class="icon-cotton"></span>
-                                    </div>
-                                    <div class="testimonial-two__counter-content-box">
-                                        <div class="testimonial-two__counter-count-box">
-                                            <h3 class="odometer" data-count="1760">00</h3>
-                                            <span class="counter-one__plus">+</span>
-                                        </div>
-                                        <p class="testimonial-two__counter-text">Organic Products</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="testimonial-two__counter-icon">
-                                        <span class="icon-customer"></span>
-                                    </div>
-                                    <div class="testimonial-two__counter-content-box">
-                                        <div class="testimonial-two__counter-count-box">
-                                            <h3 class="odometer" data-count="6890">00</h3>
-                                            <span class="counter-one__plus">+</span>
-                                        </div>
-                                        <p class="testimonial-two__counter-text">Happy Customers</p>
-                                    </div>
-                                </li>
-                            </ul>
+                            <img src="./assets/images/backgrounds/feedback.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -826,176 +678,9 @@
         </section>
         <!--Testimonial Two End-->
 
-        <!--Blog Two Start-->
-        <section class="blog-two">
-            <div class="container">
-                <div class="blog-two__inner">
-                    <div class="blog-two-shape-1"></div>
-                    <div class="blog-two__top">
-                        <div class="section-title text-left">
-                            <span class="section-title__tagline">From the Blog Post</span>
-                            <h2 class="section-title__title">News & Articles</h2>
-                            <div class="section-title__icon">
-                                <img src="assets/images/icon/section-title-icon-1.png" alt="">
-                            </div>
-                        </div>
-                        <div class="blog-two__btn-box">
-                            <a href="blog.html" class="thm-btn contact-one__btn">View All Posts <i
-                                    class="icon-right-arrow"></i> </a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <!--Blog One Single Start-->
-                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
-                            <div class="blog-one__single">
-                                <div class="blog-one__img">
-                                    <img src="assets/images/blog/blog-one-1.jpg" alt="">
-                                    <div class="blog-one__date">
-                                        <span>28</span>
-                                        <p>Aug</p>
-                                    </div>
-                                </div>
-                                <div class="blog-one__content">
-                                    <ul class="blog-one__meta list-unstyled">
-                                        <li>
-                                            <a href="blog-details.html"><i class="fas fa-user-circle"></i>Admin</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-details.html"><i class="fas fa-comments"></i>2 Comments</a>
-                                        </li>
-                                    </ul>
-                                    <h3 class="blog-one__title"><a href="blog-details.html">Why Agriculture & Eco is for
-                                            the
-                                            Envoirment</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Blog One Single End-->
-                        <!--Blog One Single Start-->
-                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
-                            <div class="blog-one__single">
-                                <div class="blog-one__img">
-                                    <img src="assets/images/blog/blog-one-2.jpg" alt="">
-                                    <div class="blog-one__date">
-                                        <span>28</span>
-                                        <p>Aug</p>
-                                    </div>
-                                </div>
-                                <div class="blog-one__content">
-                                    <ul class="blog-one__meta list-unstyled">
-                                        <li>
-                                            <a href="blog-details.html"><i class="fas fa-user-circle"></i>Admin</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-details.html"><i class="fas fa-comments"></i>2 Comments</a>
-                                        </li>
-                                    </ul>
-                                    <h3 class="blog-one__title"><a href="blog-details.html">Wheat Harvest Organic Gather
-                                            nice Moment</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Blog One Single End-->
-                        <!--Blog One Single Start-->
-                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
-                            <div class="blog-one__single">
-                                <div class="blog-one__img">
-                                    <img src="assets/images/blog/blog-one-3.jpg" alt="">
-                                    <div class="blog-one__date">
-                                        <span>28</span>
-                                        <p>Aug</p>
-                                    </div>
-                                </div>
-                                <div class="blog-one__content">
-                                    <ul class="blog-one__meta list-unstyled">
-                                        <li>
-                                            <a href="blog-details.html"><i class="fas fa-user-circle"></i>Admin</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-details.html"><i class="fas fa-comments"></i>2 Comments</a>
-                                        </li>
-                                    </ul>
-                                    <h3 class="blog-one__title"><a href="blog-details.html">Agriculture Matters to the
-                                            Future of World</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Blog One Single End-->
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Blog Two End-->
 
-        <!--Brand One Start-->
-        <section class="brand-one">
-            <div class="brand-one__inner">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="brand-one__carousel thm-owl__carousel owl-theme owl-carousel" data-owl-options='{
-                                "margin": 0,
-                                "smartSpeed": 700,
-                                "loop":true,
-                                "autoplay": 6000,
-                                "nav":false,
-                                "dots":false,
-                                "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
-                                "responsive":{
-                                    "0":{
-                                        "items":1
-                                    },
-                                    "600":{
-                                        "items":2
-                                    },
-                                    "800":{
-                                        "items":3
-                                    },
-                                    "1024":{
-                                        "items": 4
-                                    },
-                                    "1200":{
-                                        "items": 5
-                                    }
-                                }
-                            }'>
-                                <!--Brand One Single-->
-                                <div class="brand-one__single">
-                                    <div class="brand-one__img">
-                                        <img src="assets/images/brand/brand-1-1.png" alt="">
-                                    </div>
-                                </div>
-                                <!--Brand One Single-->
-                                <div class="brand-one__single">
-                                    <div class="brand-one__img">
-                                        <img src="assets/images/brand/brand-1-2.png" alt="">
-                                    </div>
-                                </div>
-                                <!--Brand One Single-->
-                                <div class="brand-one__single">
-                                    <div class="brand-one__img">
-                                        <img src="assets/images/brand/brand-1-3.png" alt="">
-                                    </div>
-                                </div>
-                                <!--Brand One Single-->
-                                <div class="brand-one__single">
-                                    <div class="brand-one__img">
-                                        <img src="assets/images/brand/brand-1-4.png" alt="">
-                                    </div>
-                                </div>
-                                <!--Brand One Single-->
-                                <div class="brand-one__single">
-                                    <div class="brand-one__img">
-                                        <img src="assets/images/brand/brand-1-5.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Brand One End-->
+
+
 
         <!--Site Footer Start-->
         <?php include ("./includes/footer.php"); ?>

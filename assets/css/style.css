@@ -6423,7 +6423,7 @@ ul {
 .testimonial-two {
   position: relative;
   display: block;
-  background-color: var(--agrion-base);
+  background-color: black;
   padding: 120px 0 120px;
   z-index: 1;
 }
@@ -6481,7 +6481,7 @@ ul {
 
 .testimonial-two__img-holder>img {
   width: 100%;
-  border: 2px solid var(--agrion-primary);
+  border: 2px solid blue;
   border-radius: 50%;
   transition: all 0.5s ease-in-out 0.6s;
 }
@@ -6536,7 +6536,7 @@ ul {
   position: relative;
   display: inline-block;
   font-size: 50px;
-  color: var(--agrion-primary);
+  color:#1d4ed8;
 }
 
 #testimonials-one__carousel-pagination {
@@ -11929,6 +11929,10 @@ body.boxed-wrapper {
 
 
 /* start */
+
+.test-justify{
+  text-align: justify;
+}
 .added_bg{
   background-color: #000000;
   color: white;
@@ -11953,6 +11957,211 @@ body.boxed-wrapper {
 }
 
 .set_bg_product{
-
+background-color: #062574;
+color: white;
 }
+
+.main_card_design{
+  border: 1px solid #3b82f6;
+  border-radius: 10px;
+  transition: 0.9s;
+  height: 300px;
+}
+
+.text-slate{
+  color: #bbb;
+}
+
+.main_card_design:hover{
+ background-image: linear-gradient(to left,);
+ 
+}
+
+/* about u start */
+.about__bgg{
+  background-color: black;
+}
+
+.setRelative{
+  position: relative;
+}
+.setAbsolute{
+  position: absolute;
+  right: 20px;
+  bottom: 0px;
+  z-index: -100000;
+}
+
+.benefits_bg{
+  background-color: #062574;
+}
+
+.bene-section{
+  border-bottom: 1px solid #14b8a6;
+  transition: 0.7s;
+}
+.bene-section:hover{
+  background-color: #a855f7;
+}
+
+.bene-section:hover p{
+  color: white;
+}
+
+
+.mission___bg{
+  background-color: black;
+  color: white;
+}
+
+#slidecurtent{
+  transition: 0.9s;
+}
+
+#slidecurtent:hover{
+ border-left: 0.2px dotted white;
+ border-right: 0.2px dotted white;
+ border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+ background-color: #52525b;
+ /* transform: rotateX(180deg); */
+}
+
+
+
+
+
+#slidecurtent:hover p{
+  color: white;
+}
+
+.xy{
+    animation-name: xymove;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes xymove {
+  0% {
+      transform: rotateX(0deg) translateY(0px);
+  }
+
+  50% {
+      transform: rotateX(0deg) translateY(-30px);
+  }
+
+  100% {
+      transform: rotateX(0deg) translateY(0px);
+  }
+}
+
+.bene-section:hover h4{
+  color: yellow;
+}
+
+.setAAbsolute{
+  border-radius: 0px 0px 200px 200px;
+}
+
+/* about u end */
+/* producy card section start */
+.set_bgggg{
+  background-color: #000000;
+}
+
+
+
+.bg_diwa img{
+  transition:  all .2s ease-in-out;
+}
+
+.bg_diwa:hover img{
+  scale: 1.1;
+  padding-bottom: 35px;
+  filter:drop-shadow(rgba(0, 0, 0, 0.35) 0px 5px 15px);
+ 
+}
+/* producy card section end */
+
+
+@media (min-width:0px) and (max-width:576px){
+  .herbalhistory{
+    width: 100%;
+    border-radius: 0px 49px 0px 0px;
+  }
+  .setAbsolute{
+    display: none;
+  }
+  .bg_diwa{
+    display: none;
+  }
+}
+
+
+@media (min-width:576px) and (max-width:768px){
+  .herbalhistory{
+    width: 350px;
+    border-radius: 0px 49px 0px 0px;
+  }
+  .setAbsolute{
+    display: none;
+  }
+  /* .set_larger_padding{
+    padding: 80px 0px 37px 0px;
+  } */
+}
+
+@media  (min-width:768px) and (max-width:992px) {
+  /* .set_larger_padding{
+    padding: 80px 0px 37px 0px;
+  } */
+}
+@media  (min-width:992px) and (max-width:1200px) {
+  /* .set_larger_padding{
+    padding: 80px 0px 37px 0px;
+  } */
+}
+
+
+@media (min-width:1200px){
+  .herbalhistory{
+    width: 350px;
+    border-radius: 0px 49px 0px 0px;
+  }
+  .setAAbsolute{
+    position: absolute;
+    top: -99px;
+    border-radius: 0px 0px 188px 195px;
+  }
+  .bg_diwa{
+    background-color: #eab308;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    
+  }
+  .bg_man{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: #3b82f6;
+
+  }
+  .set_larger_padding{
+    padding: 100px 0px 37px 0px;
+  }
+
+  .aabsollute{
+    top: -85px;
+    position: absolute;
+  }
+}
+
+
+
+
+
+
+
 /* end */

@@ -54,21 +54,9 @@
                                                 <li>
                                                     <a href="about.php">About</a>
                                                 </li>
-                                                <li class="dropdown">
-                                                    <a href="javascript:void(0);">Products</a>
-                                                    <ul class="shadow-box">
-                                                        <li><a href="services.html">Services</a>
-                                                        </li>
-                                                        <li><a href="services-carousel.html">Services Carousel</a>
-                                                        </li>
-                                                        <li><a href="agriculture-products.html">Agriculture
-                                                                Products</a></li>
-                                                        <li><a href="organic-products.html">Organic Products</a>
-                                                        </li>
-                                                        <li><a href="fresh-vegetables.html">Fresh Vegetables</a>
-                                                        </li>
-                                                        <li><a href="dairy-products.html">Dairy Products</a></li>
-                                                    </ul>
+                                                <li class="">
+                                                    <a href="product.php">Products</a>
+                                                  
                                                 </li>
                                                 <li class="">
                                                     <a href="./yog_plan.pdf" download>Business plan</a>
