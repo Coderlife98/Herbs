@@ -152,82 +152,12 @@
         </section>
         <!--Main Slider Two End-->
 
-        <!--Feature Two Start-->
-        <!-- <section class="feature-two">
-            <div class="feature-two__bg" style="background-image: url(assets/images/backgrounds/feature-two-bg.jpg);">
-            </div>
-            <div class="container">
-                <div class="row">
-                    
-                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
-                        <div class="feature-two__single">
-                            <div class="feature-two__inner">
-                                <div class="feature-two__icon">
-                                    <span class="icon-agriculture"></span>
-                                </div>
-                                <div class="feature-two__content">
-                                    <h3 class="feature-two__title"><a href="about.html">Technology</a></h3>
-                                    <p class="feature-two__subtitle">We’ve been using tech</p>
-                                </div>
-                            </div>
-                            <div class="feature-two__count"></div>
-                        </div>
-                    </div>
-                  
-                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
-                        <div class="feature-two__single">
-                            <div class="feature-two__inner">
-                                <div class="feature-two__icon">
-                                    <span class="icon-farmer-1"></span>
-                                </div>
-                                <div class="feature-two__content">
-                                    <h3 class="feature-two__title"><a href="farmers.html">Best Farmers</a></h3>
-                                    <p class="feature-two__subtitle">Skilled team of farmers</p>
-                                </div>
-                            </div>
-                            <div class="feature-two__count"></div>
-                        </div>
-                    </div>
-                  
-                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
-                        <div class="feature-two__single">
-                            <div class="feature-two__inner">
-                                <div class="feature-two__icon">
-                                    <span class="icon-certified"></span>
-                                </div>
-                                <div class="feature-two__content">
-                                    <h3 class="feature-two__title"><a href="about.html">We’re Certified</a></h3>
-                                    <p class="feature-two__subtitle">Agrion is certified market</p>
-                                </div>
-                            </div>
-                            <div class="feature-two__count"></div>
-                        </div>
-                    </div>
-                  
-                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
-                        <div class="feature-two__single">
-                            <div class="feature-two__inner">
-                                <div class="feature-two__icon">
-                                    <span class="icon-cargo"></span>
-                                </div>
-                                <div class="feature-two__content">
-                                    <h3 class="feature-two__title"><a href="about.html">We Deliver</a></h3>
-                                    <p class="feature-two__subtitle">We deliver everywhere</p>
-                                </div>
-                            </div>
-                            <div class="feature-two__count"></div>
-                        </div>
-                    </div>
-                 
-                </div>
-            </div>
-        </section> -->
-        <!--Feature Two End-->
+       
 
         <!--About Two Start-->
         <section class="about-two add_black_bg pb-4">
             <div class="about-two__bg float-bob-x">
-                <img src="assets/images/backgrounds/bg_slide.png" alt="">
+                <img src="assets/images/backgrounds/bg_slide.png" class="smNone" alt="">
             </div>
             <div class="container-fluid  ">
                 <div class="container">
@@ -239,16 +169,13 @@
                         </div>
                         <div class="col-xl-7  wow fadeInRight" data-wow-delay="1s">
                             <div class="about-Two__right">
-                                <div class="section-title text-left">
+                                <div class="section-title py-0 text-left">
                                     <span class="section-title__tagline text-white">Welcome to <span
                                             class="text-info">YOG HERBS</span></span>
                                     <h2 class="text-warning">About Us</h2>
-                                    <div class="section-title__icon">
-                                        <!-- <img src="assets/images/icon/section-title-icon-1.png" alt=""> -->
-                                        <img src="./assets/images/backgrounds/leaf.png" alt="">
-                                    </div>
+                                   
                                 </div>
-                                <p class="about-two__text">Welcome to <span class="text-white">
+                                <p class="about-two__text ">Welcome to <span class="text-white">
                                         YOG HERBS
                                     </span>, your premier destination for genuine Ayurvedic products and comprehensive
                                     wellness solutions. Our mission is to integrate the timeless principles of Ayurveda

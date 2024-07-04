@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> About || Yog Herb's</title>
-    <meta name="description" content="Agrion HTML 5 Template " />
+    <meta name="description" content="" />
     <?php include ("./includes/link.php"); ?>
 </head>
 
@@ -51,8 +51,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-6 my-3">
-                        <div class="col-12">
-                            <img src="./assets/images/backgrounds/about-leaf.png" alt="">
+                        <div class="col-12 smflexabout">
+                            <img src="./assets/images/backgrounds/about-leaf.png" class="sm-width-full" alt="">
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 my-3">
@@ -86,15 +86,15 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-5 my-3 setRelative">
-                        <div class="setAbsolute">
+                    <div class="col-12 col-xl-5 my-3 setRelative">
+                        <div class="setAbsolute ">
                             <img src="./assets/images/backgrounds/dotted.png" alt="">
                         </div>
                         <div>
                             <img src="./assets/images/backgrounds/herbalhistory.jpg" class="herbalhistory" alt="">
                         </div>
                     </div>
-                    <div class="col-12 col-md-7 my-3">
+                    <div class="col-12 col-xl-7 my-3">
                         <div>
                             <h3 class="fw-bolder">History</h3>
                             <p class="text-justify">
@@ -187,7 +187,7 @@
                     </div>
                 </div>
                 <div class="row py-4" id="slidecurtent" style="border-top:0.2px solid white">
-                <div class="col-12 col-lg-4 my-3 d-flex wow fadeInLeft justify-content-center" data-wow-delay="1s">
+                <div class="col-12 col-lg-4 order-2 order-lg-0 my-3 d-flex wow fadeInLeft justify-content-center" data-wow-delay="1s">
                         <div>
                             <img src="./assets/images/backgrounds/vision.png" class="" alt="">
                         </div>
@@ -212,7 +212,7 @@
                         <div>
                             <h3 class="text-info">Our Story</h3>
                             <p class="text-justify text-slate">
-                            Discover the essence of nature's healing power with our herbal remedies at [Website Name]. Rooted in centuries-old wisdom, our herbal products are crafted with care to harness the therapeutic benefits of botanicals. From soothing teas that calm the senses to potent extracts that invigorate, each offering is a testament to purity and efficacy. We source our ingredients sustainably, ensuring the highest quality from farm to formulation.
+                            Discover the essence of nature's healing power with our herbal remedies at Yog Herbs. Rooted in centuries-old wisdom, our herbal products are crafted with care to harness the therapeutic benefits of botanicals. From soothing teas that calm the senses to potent extracts that invigorate, each offering is a testament to purity and efficacy. We source our ingredients sustainably, ensuring the highest quality from farm to formulation.
                             </p>
                             <p class="text-justify text-slate">
                             Whether you seek relaxation, rejuvenation, or revitalization, our herbal solutions cater to diverse needs with a commitment to natural wellness. Embrace the synergy of tradition and innovation with <span class="text-warning">Yog Herb's</span>, where herbal wisdom meets modern health. Join us in nurturing your well-being, naturally.
@@ -241,7 +241,7 @@
                 </div>
                 <div class="row">
                     <!--Team One Single Start-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
+                    <div class="col-xl-4 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                         <div class="team-one__single">
                             <div class="team-one__shape-1">
                                 <img src="assets/images/shapes/team-one-shape-1.png" alt="">
@@ -264,7 +264,7 @@
                                         </li>
                                     </ul>
                                     <div class="team-one__icon">
-                                        <a href="#"><i class="fas fa-share-alt"></i></a>
+                                        <a href="javascript:void(0);"><i class="fas fa-share-alt"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -276,7 +276,7 @@
                     </div>
                     <!--Team One Single End-->
                     <!--Team One Single Start-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
+                    <div class="col-xl-4 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
                         <div class="team-one__single">
                             <div class="team-one__shape-1">
                                 <img src="assets/images/shapes/team-one-shape-1.png" alt="">
@@ -294,7 +294,7 @@
                                         </li>
 
                                         <li>
-                                            <a href="#"><i class="fab fa-instagram"></i><span
+                                            <a href="javascript:void(0);"><i class="fab fa-instagram"></i><span
                                                     class="team-one__social-name">Instagram</span></a>
                                         </li>
                                     </ul>
@@ -311,7 +311,7 @@
                     </div>
                     <!--Team One Single End-->
                     <!--Team One Single Start-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="col-xl-4 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
                         <div class="team-one__single">
                             <div class="team-one__shape-1">
                                 <img src="assets/images/shapes/team-one-shape-1.png" alt="">

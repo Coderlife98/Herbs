@@ -9,7 +9,7 @@
     <?php include("./includes/link.php");?>
 </head>
 
-<body class="custom-cursor">
+<body class="custom-cursor" style="background-color: black;color:#bbb">
 
     <div class="custom-cursor__cursor"></div>
     <div class="custom-cursor__cursor-two"></div>
@@ -33,11 +33,11 @@
 
         <!--Page Header Start-->
         <section class="page-header">
-            <div class="page-header-bg" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg)">
+            <div class="page-header-bg" style="background-image: url(assets/images/backgrounds/contact_hero.jpg)">
             </div>
             <div class="container">
                 <div class="page-header__inner">
-                    <ul class="thm-breadcrumb list-unstyled">
+                    <ul class="thm-breadcrumb list-unstyled my-3">
                         <li><a href="index.php">Home</a></li>
                         <li><span>/</span></li>
                         <li>Contact</li>
@@ -48,48 +48,45 @@
         </section>
         <!--Page Header End-->
 
-        <!--Google Map Start-->
-        <section class="google-map">
+          <!--Contact Two Start-->
+          <section class="container-fluid set_bgggg1 py-4">
             <div class="container">
-                <div class="google-map-box">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7341.2156057357315!2d70.16662538878388!3d23.0748359870484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3950ba472983fc9d%3A0x5d1d6f650b9cf52e!2sKhari%20Road%2C%20Gujarat%20370201!5e0!3m2!1sen!2sin!4v1719905066290!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div class="contact-details">
+            <div class="contact-details">
                     <div class="row">
-                        <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="col-xl-4 col-lg-6 col-md-6">
                             <div class="contact-details__single">
-                                <div class="contact-details__icon">
-                                    <span class="icon-help"></span>
+                                <div class="contact-details__icon text-warning">
+                                    <span class="icon-help "></span>
                                 </div>
                                 <div class="contact-details__text">
-                                    <p>Have Question?</p>
-                                    <h3><a href="tel:+91 8002489809"> +91 8002489809</a></h3>
+                                    <p class="text-white">Have Question?</p>
+                                    <h3 ><a href="tel:+91 8002489809" class="text-info"> +91 8002489809</a></h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="col-xl-4 col-lg-6 col-md-6">
                             <div class="contact-details__single">
                                 <div class="contact-details__icon">
                                     <span class="icon-mailbox"></span>
                                 </div>
                                 <div class="contact-details__text">
-                                    <p>Write Email</p>
-                                    <h3><a href="mailto:yogherbs@gmail.com">yogherbs@gmail.com</a></h3>
+                                    <p class="text-white">Write Email</p>
+                                    <h3><a href="mailto:yogherbs@gmail.com"  class="text-info">yogherbs@gmail.com</a></h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="col-xl-4 col-lg-6 col-md-6">
                             <div class="contact-details__single contact-details__single-last">
                                 <div class="contact-details__icon">
                                     <span class="icon-maps-and-flags"></span>
                                 </div>
                                 <div class="contact-details__text">
-                                    <p>Visiting Address</p>
-                                    <h3>Khari road Gandhi nagar Kutch Gujarat (India) 370201</h3>
+                                    <p class="text-white">Visiting Address</p>
+                                    <h3 class="text-info">Khari road Gandhi nagar Kutch Gujarat (India) 370201</h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6">
+                        <!-- <div class="col-xl-3 col-lg-6 col-md-6">
                             <div class="contact-details__single">
                                 <div class="contact-details__social">
                                     <a href="javascript:void(0);"><i class="fab fa-twitter"></i></a>
@@ -98,67 +95,74 @@
                                     <a href="javascript:void(0);"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
-            </div>
-        </section>
-        <!--Google Map End-->
-
-        <!--Contact Two Start-->
-        <section class="contact-two">
-            <div class="contact-two__shape-1 float-bob-x">
-                <img src="assets/images/shapes/contact-two-shape-1.png" alt="">
-            </div>
-            <div class="container">
-                <div class="section-title text-center">
-                    <span class="section-title__tagline">Write a Message</span>
-                    <h2 class="section-title__title">Always here to help you</h2>
-                    <div class="section-title__icon">
-                        <img src="assets/images/icon/section-title-icon-1.png" alt="">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-warning text-center py-4">Contact Us Form</h3>
                     </div>
                 </div>
-                <div class="contact-two__form-box">
-                    <form action="https://pixydrops.com/agrionhtml/main-html/assets/inc/sendemail.php" class="contact-two__form contact-form-validated"
-                        novalidate="novalidate">
-                        <div class="row">
-                            <div class="col-xl-6">
+                <div class="row">
+                  <div class="col-12 col-lg-6 my-2 d-flex align-items-center ">
+                    <div class="">
+                        <img src="./assets/images/backgrounds/contact_left.png" class="contactLeft" alt="">
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-6 my-2">
+                  <form action="./formhandler.php" method="post" class="contact-two__form "
+                       >
+                        <div class="">
+                            <div class="">
                                 <div class="contact-form__input-box">
-                                    <input type="text" placeholder="Your Name" name="name">
+                                    <input type="text" oninput="this.value = this.value.toUpperCase().replace(/[^a-z,A-Z]/g, '').replace(/(\  *?)\  */g, '$1')" id="name" autocomplete="false" placeholder="Your Name" class="input_bg" name="name" required>
                                 </div>
                             </div>
-                            <div class="col-xl-6">
+                            <div class="">
                                 <div class="contact-form__input-box">
-                                    <input type="email" placeholder="Email Address" name="email">
+                                    <input type="email" id="email"  placeholder="Email Address" class="input_bg"  name="email" >
                                 </div>
                             </div>
-                            <div class="col-xl-6">
+                            <div class="">
                                 <div class="contact-form__input-box">
-                                    <input type="text" placeholder="Phone" name="Phone Number">
+                                    <input type="text" id="phone" oninput="this.value = this.value.toUpperCase().replace(/[^0-9]/g, '').replace(/(\  *?)\  */g, '$1')" maxlength="10" placeholder="Phone" class="input_bg"  name="Phone Number" required>
                                 </div>
                             </div>
-                            <div class="col-xl-6">
+                            <div class="">
                                 <div class="contact-form__input-box">
-                                    <input type="text" placeholder="Subject" name="Subject">
+                                    <input type="text" id="subject" placeholder="Subject" class="input_bg"  name="Subject" required>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xl-12">
+                            <div class="">
                                 <div class="contact-form__input-box text-message-box">
-                                    <textarea name="message" placeholder="Write a Comment"></textarea>
+                                    <textarea name="message" id="message" class="input_bg"  required placeholder="Write a Comment"></textarea>
                                 </div>
                                 <div class="contact-form__btn-box">
-                                    <a href="about.html" class="thm-btn contact-two__btn">Send a Message<i
-                                            class="icon-right-arrow"></i> </a>
+                                    <button class="thm-btn btn_design_none contact-two__btn" name="submit" onclick="return validate();">Send a Message<i
+                                            class="icon-right-arrow"></i> </button>
                                 </div>
                             </div>
                         </div>
                     </form>
+                  </div>
                 </div>
             </div>
         </section>
         <!--Contact Two End-->
+        <!--Google Map Start-->
+        <section class="google-map">
+            <div class="container">
+                <div class="google-map-box">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7341.2156057357315!2d70.16662538878388!3d23.0748359870484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3950ba472983fc9d%3A0x5d1d6f650b9cf52e!2sKhari%20Road%2C%20Gujarat%20370201!5e0!3m2!1sen!2sin!4v1719905066290!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+               
+            </div>
+        </section>
+        <!--Google Map End-->
+
+      
 
         <!--Site Footer Start-->
         <?php include("./includes/footer.php");?>
@@ -224,6 +228,49 @@
     </div>
     <!-- /.search-popup -->
 <?php include("./includes/script.php");?>
+<script>
+    const validate = ()=>{
+        var Name = document.getElementById("name").value;
+            var Email = document.getElementById("email").value;
+            var Number = document.getElementById("phone").value;
+            var subject = document.getElementById("subject").value;
+            var Message = document.getElementById("message").value;
+            var namePattern = /^[A-Za-z\s\-]+$/;
+            var phoneRegex = /^\d{10}$/;
+            var emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+
+
+            if (!Name) {
+                alert("Please Enter Name");
+                return false;
+            } else if (!namePattern.test(Name)) {
+                alert("Enter Only Alphabets Name");
+                return false;
+            } else if (!Email) {
+                alert("Enter Email");
+                return false;
+            } else if (!emailRegex.test(Email)) {
+                alert("Enter Valid Email");
+                return false;
+            } else if (!Number) {
+                alert("Enter Phone Number");
+                return false;
+            } else if (!phoneRegex.test(Number)) {
+                alert("Enter Correct Number");
+                return false;
+            } else if (!subject) {
+                alert("Enter subject");
+                return false;
+            } else if (!(subject.length > 3)) {
+                alert("Subject field needs longer input");
+                return false;
+            } else if (!Message) {
+                alert("Enter Message");
+                return false;
+            }
+    }
+</script>
 </body>
 
 </html>

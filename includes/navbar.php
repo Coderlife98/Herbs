@@ -42,10 +42,11 @@
                     <nav class="main-menu main-menu-two">
                         <div class="main-menu-two__wrapper">
                             <div class="container">
+                                
                                 <div class="main-menu-two__wrapper-inner">
                                     <div class="main-menu-two__left">
                                         <div class="main-menu-two__main-menu-box">
-                                            <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+                                            <a href="javascript:void(0);" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                             <ul class="main-menu__list">
                                                 <li class=" current megamenu">
                                                     <a href="index.php">Home </a>
@@ -63,11 +64,11 @@
                                                   
                                                 </li>
                                                 <li class="">
-                                                    <a href="#">Register</a>
+                                                    <a href="./register.php">Register</a>
                                                    
                                                 </li>
                                                 <li class="">
-                                                    <a href="#">Login</a>
+                                                    <a href="./login.php">Login</a>
                                                    
                                                 </li>
                                               
